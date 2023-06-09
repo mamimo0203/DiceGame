@@ -4,6 +4,13 @@
 int main(){
   int a, b, sum;
   
+  //experimental
+  char str[0];
+  printf("What is you name?");
+  scanf("%s", str);
+  printf("Hello, %s\n", str);
+  //experimental
+  
   printf("サイコロを振る...\n");
   
   a = rand() % 6 +1;
