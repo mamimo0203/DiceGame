@@ -23,9 +23,9 @@ int main(){
   
   //Wonlost message added
   if(sum > 7){
-    printf("You won\n");
+    printf("%s won\n", str);
   } eise {
-    printf("You lost\n");
+    printf("%s lost\n", str);
   }
   //Wonlost message added
   
