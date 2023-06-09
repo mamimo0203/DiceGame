@@ -14,6 +14,14 @@ int main(){
   printf("サイコロ2: %d\n", b);
   printf("合計値: %d\n", sum);
   
+  //Wonlost message added
+  if(sum > 7){
+    printf("You won\n");
+  } eise {
+    printf("You lost\n");
+  }
+  //Wonlost message added
+  
   return 0;
 }
     
